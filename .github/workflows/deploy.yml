@@ -5,6 +5,7 @@ on:
       - source
     tags:
       - "!*"
+  workflow_dispatch:
 
 jobs:
   build-deploy:
